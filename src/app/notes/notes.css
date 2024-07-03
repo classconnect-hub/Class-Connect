@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
+  .filter-select {
+    font-family: monospace;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .filter-select:hover {
+    background-color: #e7e7f7;
+  }
+  
+  .filter-select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter-label {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #ffffff4d;
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .filter-group .filter-select {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-group .filter-select:nth-child(3) {
+    margin-right: 0;
+  }
+  .middleTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    background-color:  #ffffff4d; 
+    padding: 10px; 
+    border-radius: 10px;
+    font-family: 'Kaisei Tokumin', sans-serif;
+    display: inline-block; 
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .button {
+      width: 100%;
+    }
+  }
+  .filter-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-list-container > * {
+    margin: 10px;
+  }
+
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 768px) {
+   .filter-list-container {
+      flex-direction: column;
+    }
+  }
