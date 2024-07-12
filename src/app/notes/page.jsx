@@ -7,6 +7,7 @@ import compsData from './data/comps';
  import itData from './data/it';
  import extcData from './data/extc';
  import fyData from './data/fy';
+ import './/notes.css';
 
  const notes = [...fyData, ...compsData, ...aiDsData, ...itData, ...extcData];
 // const notes = [...compsData];
