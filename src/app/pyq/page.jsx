@@ -1,13 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "./pyq.css";
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All"); // default filter value
   const [filterSemester, setFilterSemester] = useState("All"); // default filter value
   const [filterSubject, setFilterSubject] = useState("All"); // default filter value
-  const [notes, setNotes] = useState([
+  const [notes] = useState([
     {
       id: 1,
       department: "Comps",

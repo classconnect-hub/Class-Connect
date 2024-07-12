@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from "react";
-import styles from "./notes.css";
 // Notes.js
 import compsData from './data/comps';
  import aiDsData from './data/aids';
@@ -18,7 +17,6 @@ const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All"); // default filter value
   const [filterSemester, setFilterSemester] = useState("All"); // default filter value
   const [filterSubject, setFilterSubject] = useState("All"); // default filter value
-  const [notesState, setNotesState] = useState(notes);
 
   const handleFilterDepartmentChange = (e) => {
     setFilterDepartment(e.target.value);

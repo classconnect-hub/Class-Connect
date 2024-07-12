@@ -1,13 +1,12 @@
 'use client';
 
 import React, { useState } from "react";
-import styles from "./resources.css";
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All"); // default filter value
   const [filterSemester, setFilterSemester] = useState("All"); // default filter value
   const [filterSubject, setFilterSubject] = useState("All"); // default filter value
-  const [notes, setNotes] = useState([
+  const [notes] = useState([
     { id: 1, department: "Comps", semester: "Sem1", subject: "DBMS", note: "Note 1" },
     { id: 2, department: "AI-DS", semester: "Sem1", subject: "ML", note: "Note 2" },
     { id: 3, department: "IT", semester: "Sem1", subject: "OS", note: "Note 3" },

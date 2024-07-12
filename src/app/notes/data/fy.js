@@ -1,4 +1,4 @@
-export default [
+const fyData = [
   {
     id: 1,
     department: "FY",
@@ -180,3 +180,4 @@ export default [
     link: "https://www.youtube.com/@EngineeringPhysicsbySanjiv/playlists",
   }
 ];
+export default fyData;

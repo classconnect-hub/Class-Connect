@@ -2,25 +2,7 @@ import Image from "next/image";
 import styles from "./home.module.css";
 import Buttons from "./buttons";
 import About from './about/page';
-
-const teamMembers = [
-  {
-    image: "/rid.jpg",
-    name: "Riddhesh C",
-    link: "https://riddhesh.vercel.app/",
-  },
-  {
-    image: "/rid.jpg",
-    name: "Vedika Khochare",
-    link: "https://riddhesh.vercel.app/",
-  },
-  {
-    image: "/rid.jpg",
-    name: "Apoorva Borhade",
-    link: "https://riddhesh.vercel.app/",
-  },
-  // Add more team members here...
-];  
+  
 const Home = () => {
   return (
     <div>

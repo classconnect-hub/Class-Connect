@@ -71,13 +71,13 @@ const AboutPage = () => {
         marginBottom: '20px'
       }}>
         <a href="https://github.com/404reese" target="_blank" style={{ marginRight: '10px' }}>
-          <img src="/github.png" alt="GitHub" width="30" height="30" />
+          <Image src="/github.png" alt="GitHub" width="30" height="30" />
         </a>
         <a href="https://riddhesh.vercel.app/" target="_blank" style={{ marginRight: '10px' }}>
-          <img src="/web.png" alt="Wensite" width="33" height="33" />
+          <Image  src="/web.png" alt="Wensite" width="33" height="33" />
         </a>
         <a href="https://www.linkedin.com/in/riddheshchaudhary/" target="_blank" style={{ marginRight: '10px' }}>
-          <img src="/linkedin.png" alt="LinkedIn" width="30" height="30" />
+          <Image  src="/linkedin.png" alt="LinkedIn" width="30" height="30" />
         </a>
       </p>
     </div>
