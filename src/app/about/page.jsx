@@ -81,12 +81,13 @@ const AboutPage = () => {
         </a>
       </p>
     </div>
+{/*     
     <div style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       padding: '40px 40px 20px',
-      backgroundColor: 'rgba(255, 255, 255, 0.3)', /* glass morphism background */
+      backgroundColor: 'rgba(255, 255, 255, 0.3)', 
       borderRadius: '10px',
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
       backdropFilter: 'blur(10px)'
@@ -99,18 +100,18 @@ const AboutPage = () => {
         textAlign: 'center',
         fontSize: '24px',
         marginBottom: '10px',
-        color: '#fff' /* dark text color */
+        color: '#fff' 
       }}>Laxman Bafna</h2>
       <p style={{
         textAlign: 'center',
         fontSize: '18px',
-        color: '#fff', /* medium dark text color */
+        color: '#fff', 
         marginBottom: '20px'
       }}>Project Lead</p>
       <p style={{
         textAlign: 'center',
         fontSize: '18px',
-        color: '#fff', /* medium dark text color */
+        color: '#fff', 
         marginBottom: '10px'
       }}>
         <a href="https://github.com/luckyb13" target="_blank" style={{ marginRight: '10px' }}>
@@ -123,7 +124,7 @@ const AboutPage = () => {
           <img src="/linkedin.png" alt="LinkedIn" width="30" height="30" />
         </a>
       </p>
-    </div>
+    </div> */}
   </div>
 </div>
 

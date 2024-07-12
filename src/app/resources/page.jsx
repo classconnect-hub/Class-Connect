@@ -89,6 +89,7 @@ filterSemester === "All" &&
   justifyContent: 'center',
   alignItems: 'center',
 }}>
+  <h1>feature scheduled for push 3.2.7 </h1>
   <h1 className="middleTitle">Resources</h1>
 </div>
       <div className="filter-list-container">
