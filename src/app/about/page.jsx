@@ -13,13 +13,13 @@ const teamMembers = [
     link: "#",
   },
   {
-    image: "/rid.jpg",
-    name: "Vedika Khochare",
+    image: "/contro-1.png",
+    name: "contributor 1",
     link: "https://riddhesh.vercel.app/",
   },
   {
-    image: "/rid.jpg",
-    name: "Apoorva Borhade",
+    image: "/contro-2.png",
+    name: "contributor 1",
     link: "https://riddhesh.vercel.app/",
   },
   // Add more team members here...
