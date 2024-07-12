@@ -1,14 +1,14 @@
 'use client';
 
 import React, { useState } from "react";
-import styles from "./notes.css";
 // Notes.js
 import compsData from './data/comps';
  import aiDsData from './data/aids';
  import itData from './data/it';
  import extcData from './data/extc';
+ import fyData from './data/fy';
 
- const notes = [...compsData, ...aiDsData, ...itData, ...extcData];
+ const notes = [...fyData, ...compsData, ...aiDsData, ...itData, ...extcData];
 // const notes = [...compsData];
 
 
@@ -17,7 +17,6 @@ const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All"); // default filter value
   const [filterSemester, setFilterSemester] = useState("All"); // default filter value
   const [filterSubject, setFilterSubject] = useState("All"); // default filter value
-  const [notesState, setNotesState] = useState(notes);
 
   const handleFilterDepartmentChange = (e) => {
     setFilterDepartment(e.target.value);
@@ -89,32 +88,27 @@ filterSemester === "All" &&
   <select className="filter-select" value={filterDepartment} onChange={handleFilterDepartmentChange} >
     <option value="All">All</option>
     <option value="FY">FY</option>
-    <option value="Comps">Comps</option>
+    {/* <option value="Comps">Comps</option>
     <option value="AI-DS">AI-DS</option>
     <option value="IT">IT</option>
-    <option value="EXTC">EXTC</option>
+    <option value="EXTC">EXTC</option> */}
   </select>
   <h3>Semester</h3>
   <select className="filter-select" value={filterSemester} onChange={handleFilterSemesterChange} >
     <option value="All">All</option>
     <option value="Sem1">Sem1</option>
-    <option value="Sem2">Sem2</option>
+    {/* <option value="Sem2">Sem2</option>
     <option value="Sem3">Sem3</option>
-    <option value="Sem4">Sem4</option>
+    <option value="Sem4">Sem4</option> */}
   </select>
   <h3>Subject</h3>
   <select className="filter-select" value={filterSubject} onChange={handleFilterSubjectChange} >
     <option value="All">All</option>
-    <option value="DBMS">DBMS</option>
-    <option value="ML">ML</option>
-    <option value="OS">OS</option>
-    <option value="EC">EC</option>
-    <option value="CN">CN</option>
-    <option value="AI">AI</option>
-    <option value="DS">DS</option>
-    <option value="CA">CA</option>
-    <option value="DC">DC</option>
-    <option value="CV">CV</option>
+    <option value="BEE">BEE</option>
+    <option value="EC">Engineeing Chemistry</option>
+    <option value="EM-1">Maths 1</option>
+    <option value="EM">Mechanics</option>
+    <option value="EP">Engineeing Physics</option>
   </select>
 </div>
       <ul>
