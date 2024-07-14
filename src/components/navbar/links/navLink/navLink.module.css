@@ -10,3 +10,7 @@
   background-color: var(--text);
   color: var(--bg);
 }
+
+.navbar-container.hidden {
+  display: none;
+}

@@ -6,15 +6,16 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
+      <a href="/notes" target="_self">
         <button className={styles.button}>
-        <a href="/notes" target="_self">
+        
           <Image src="/notes-icon.png" alt="Notes Icon" width={40} height={40} />
-          <span>Notes</span></a>
-        </button>
-        <a href="/resources" target="_self">
+          <span>Notes</span>
+        </button></a>
+        <a href="/qb" target="_self">
         <button className={styles.button}>
-          <Image src="/resources-icon.png" alt="Resources Icon" width={40} height={40} />
-          <span>Resources</span>
+          <Image src="/qb.png" alt="Resources Icon" width={40} height={40} />
+          <span>QuestionBank</span>
         </button></a>
         <a href="/pyq" target="_self">
         <button className={styles.button}>

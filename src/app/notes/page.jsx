@@ -85,7 +85,7 @@ filterSemester === "All" &&
  <h1 className="middleTitle">Notes</h1>
 </div>
 <div className="filter-list-container">
-  <h3 style={{paddingTop:'20px'}}>Year</h3>
+  <h3 style={{ paddingTop: "10px" }}>Year</h3>
   <select className="filter-select" value={filterDepartment} onChange={handleFilterDepartmentChange} >
     <option value="All">All</option>
     <option value="FY">FY</option>
@@ -94,7 +94,7 @@ filterSemester === "All" &&
     {/* <option value="IT">IT</option>
     <option value="EXTC">EXTC</option> */}
   </select>
-  <h3>Semester</h3>
+  <h3 style={{ paddingTop: "10px" }}>Semester</h3>
   <select className="filter-select" value={filterSemester} onChange={handleFilterSemesterChange} >
     <option value="All">All</option>
     <option value="Sem1">Sem1</option>
@@ -102,7 +102,7 @@ filterSemester === "All" &&
     <option value="Sem3">Sem3</option>
     {/* <option value="Sem4">Sem4</option> */}
   </select>
-  <h3>Subject</h3>
+  <h3 style={{ paddingTop: "10px" }}>Subject</h3>
   <select className="filter-select" value={filterSubject} onChange={handleFilterSubjectChange} >
     <option value="All">All</option>
     <option value="BEE">BEE</option>

@@ -1,0 +1,23 @@
+.middleTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    background-color:  #ffffff4d; 
+    padding: 10px; 
+    border-radius: 10px;
+    font-family: 'Kaisei Tokumin', sans-serif;
+    display: inline-block; 
+    text-align: center;
+    margin-bottom: 100px ;
+  }
+  .teamContainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* set the height to 100vh to center vertically */
+  }
