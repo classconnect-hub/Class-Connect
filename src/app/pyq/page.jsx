@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import './/pyq.css';
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All"); // default filter value
@@ -9,10 +10,11 @@ const Notes = () => {
   const [notes] = useState([
     {
       id: 1,
-      department: "Comps",
+      department: "FY",
       semester: "Sem1",
       subject: "DBMS",
       note: "Note 1",
+      link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ESN7QsBiY1lBo6EQbm5PiaEByVrJduKsvOX-JS3I8nC8SQ?e=ONnCQs",
     },
     {
       id: 2,
@@ -210,8 +212,8 @@ const Notes = () => {
           <option value="FY">FY</option>
           <option value="Comps">Comps</option>
           <option value="AI-DS">AI-DS</option>
-          <option value="IT">IT</option>
-          <option value="EXTC">EXTC</option>
+          {/* <option value="IT">IT</option>
+          <option value="EXTC">EXTC</option> */}
         </select>
         <h3>Semester</h3>
         <select
@@ -232,23 +234,19 @@ const Notes = () => {
           onChange={handleFilterSubjectChange}
         >
           <option value="All">All</option>
-          <option value="DBMS">DBMS</option>
-          <option value="ML">ML</option>
-          <option value="OS">OS</option>
-          <option value="EC">EC</option>
-          <option value="CN">CN</option>
-          <option value="AI">AI</option>
-          <option value="DS">DS</option>
-          <option value="CA">CA</option>
-          <option value="DC">DC</option>
-          <option value="CV">CV</option>
+    <option value="BEE">BEE</option>
+    <option value="EC">Engineering Chemistry</option>
+    <option value="EM-1">Maths 1</option>
+    <option value="EM">Mechanics</option>
+    <option value="EP">Engineering Physics</option>
+    <option value="DBMS">DBMS</option>
         </select>
       </div>
       <ul>
         {filteredNotes.map((note) => (
           <li key={note.id}>
-            {note.note} ({note.department}, {note.semester}, {note.subject})
-          </li>
+          <a href={note.link} target="_blank" rel="noopener noreferrer">{note.note} ({note.department}, {note.semester}, {note.subject}) - <span style={{ color:'grey' }}>{note.name}</span></a>
+        </li>
         ))}
       </ul>
     </div>
