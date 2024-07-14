@@ -91,7 +91,7 @@ filterSemester === "All" &&
   <h1>feature scheduled for push 3.2.7 </h1>
   <h1 className="middleTitle">Resources</h1>
 </div>
-      <div className="filter-list-container">
+      {/* <div className="filter-list-container">
       <h3 style={{paddingTop:'20px'}}>Year</h3>
       <select className="filter-select" value={filterDepartment} onChange={handleFilterDepartmentChange}>
         <option value="All">All</option>
@@ -123,14 +123,14 @@ filterSemester === "All" &&
         <option value="DC">DC</option>
         <option value="CV">CV</option>
       </select>
-      </div>
-      <ul>
+      </div> */}
+      {/* <ul>
         {filteredNotes.map((note) => (
           <li key={note.id}>
             {note.note} ({note.department}, {note.semester}, {note.subject})
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

@@ -14,12 +14,12 @@ const teamMembers = [
   },
   {
     image: "/contro-1.png",
-    name: "contributor 1",
+    name: "contributor",
     link: "https://riddhesh.vercel.app/",
   },
   {
     image: "/contro-2.png",
-    name: "contributor 1",
+    name: "contributor",
     link: "https://riddhesh.vercel.app/",
   },
   // Add more team members here...
