@@ -10,7 +10,7 @@ const Notes = () => {
   const [notes] = useState([
     {
       id: 1,
-      department: "Comps",
+      department: "FY",
       semester: "Sem1",
       subject: "DBMS",
       note: "Note 1",
