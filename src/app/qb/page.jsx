@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import notes from "./data/pData"; // Adjust the path as per your project structure
-import "./pyq.css";
+import notes from "./data/qbData"; // Adjust the path as per your project structure
+import "./qb.css";
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All");
@@ -83,7 +83,7 @@ const Notes = () => {
           alignItems: "center",
         }}
       >
-        <h1 className="middleTitle">PYQ</h1>
+        <h1 className="middleTitle">Question Bank</h1>
       </div>
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Year</h3>

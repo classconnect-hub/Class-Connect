@@ -20,8 +20,8 @@ const links = [
     path: "/pyq",
   },
   {
-    title: "Resources",
-    path: "/resources",
+    title: "Question Bank",
+    path: "/qb",
   },
   {
     title: "About Us",

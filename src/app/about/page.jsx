@@ -13,9 +13,9 @@ const teamMembers = [
     link: "#",
   },
   {
-    image: "/contro-1.png",
-    name: "contributor",
-    link: "https://riddhesh.vercel.app/",
+    image: "/contro-vp.jpeg",
+    name: "Vrunda Parekh",
+    link: "#",
   },
   {
     image: "/contro-2.png",
@@ -42,7 +42,7 @@ const AboutPage = () => {
       flexDirection: 'column',
       alignItems: 'center',
       padding: '40px 40px 20px',
-      backgroundColor: 'rgba(255, 255, 255, 0.3)', /* glass morphism background */
+      backgroundColor: 'rgba(255, 255, 255, 0.2)', /* glass morphism background */
       borderRadius: '10px',
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
       backdropFilter: 'blur(10px)',
@@ -146,7 +146,7 @@ const AboutPage = () => {
         flexDirection: 'column',
         alignItems: 'center',
         padding: '20px',
-        backgroundColor: 'rgba(255, 255, 255, 0.3)', /* glass morphism background */
+        backgroundColor: 'rgba(255, 255, 255, 0.2)', /* glass morphism background */
         borderRadius: '10px',
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
         backdropFilter: 'blur(10px)',

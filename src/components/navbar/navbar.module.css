@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap");
 
 .container {
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Semi-transparent white background */
   backdrop-filter: blur(10px); /* Apply the glass morphism effect */
   border-radius: 10px; /* Rounded corners */
   padding: 20px;
@@ -15,11 +20,13 @@
 .logo {
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Kaisei Tokumin', sans-serif;
+  font-family: "Kaisei Tokumin", sans-serif;
 }
 @media only screen and (max-width: 768px) {
   .logo {
     font-size: 30px;
   }
-   
- }
+  .burgerMenu {
+    display: none;
+  }
+}
