@@ -13,8 +13,8 @@ const teamMembers = [
     link: "#",
   },
   {
-    image: "/contro-vp.jpeg",
-    name: "Vrunda Parekh",
+    image: "/contro-2.png",
+    name: "contributor",
     link: "#",
   },
   {

@@ -128,7 +128,7 @@ const Notes = () => {
         {filteredNotes.map((note) => (
           <li key={note.id}>
             <a href={note.link} target="_blank" rel="noopener noreferrer">
-              {note.note} ({note.department}, {note.semester}, {note.subject})
+              {note.title} ({note.department}, {note.semester}, {note.subject})
             </a>
           </li>
         ))}

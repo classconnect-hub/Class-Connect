@@ -3,10 +3,10 @@ const mysql = require('mysql');
 
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'your_mysql_username',
-    password: 'your_mysql_password',
-    database: 'notesdb'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 pool.getConnection((err, connection) => {

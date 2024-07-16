@@ -4,6 +4,7 @@
   display: flex;
   gap: 100px;
   padding-top: 6rem;
+  flex-direction: row;
 }
 
 .textContainer {
@@ -99,4 +100,20 @@
   .teamContainer {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+ 
+  .imgContainer {
+    width: 100%; /* or a specific width you want */
+    height: auto; /* or a specific height you want */
+  }
+  .heroImg {
+    width: 100%; /* or a specific width you want */
+    height: auto; /* or a specific height you want */
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    order: -1; /* move to top */
   }
