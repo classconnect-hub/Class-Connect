@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
         <Script
           strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=$G-MPPFLH83KV`}
         />
 
         <Script id="ga-script" strategy="lazyOnload">
