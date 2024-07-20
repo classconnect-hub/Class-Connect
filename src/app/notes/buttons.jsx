@@ -6,31 +6,32 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
-        <a href="/notes" target="_self">
+      <a href="/notes/departments/FY" target="_self">
           <button className={styles.button}>
-            <Image
-              src="/notes-icon.png"
-              alt="Notes Icon"
-              width={40}
-              height={40}
-            />
-            <span>Notes</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>FY</span>
+            <span>BS&H</span>
           </button>
         </a>
-        <a href="/qb" target="_self">
+        <a href="/notes/departments/COMPS" target="_self">
           <button className={styles.button}>
-            <Image src="/qb.png" alt="Resources Icon" width={40} height={40} />
-            <span>QuestionBank</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>COMPS</span>
+            <span>Department</span>
           </button>
         </a>
-        <a href="/pyq" target="_self">
+        <a href="/notes/departments/AIDS" target="_self">
           <button className={styles.button}>
-            <Image src="/pyq-icon.png" alt="PYQ Icon" width={40} height={40} />
-            <span>PYQ</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>AI-DS</span>
+            <span>Department</span>
           </button>
         </a>
+        {/* <a href="/notes/departments/IT" target="_self">
+          <button className={styles.button}>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>IT</span>
+            <span>Department</span>
+          </button>
+        </a> */}
       </div>
-      <div className={styles.buttonRow}>
+      {/* <div className={styles.buttonRow}>
         <a href="/groups" target="_self">
           <button className={styles.button}>
             <Image src="/groups.png" alt="Groups Icon" width={40} height={40} />
@@ -56,7 +57,7 @@ const Buttons = () => {
           <Image src="/upload.png" alt="Upload Icon" width={40} height={40} />
           <span>Contribute</span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

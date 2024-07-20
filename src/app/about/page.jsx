@@ -13,14 +13,19 @@ const teamMembers = [
     link: "#",
   },
   {
-    image: "/contro-2.png",
-    name: "contributor",
-    link: "#",
+    image: "/contro-harsh.jpeg",
+    name: "Harsh Shingavi",
+    link: "https://www.linkedin.com/in/harsh-shingavi/",
+  },
+  {
+    image: "/contro-vrunda.jpeg",
+    name: "Vrunda Parekh",
+    link: "https://www.linkedin.com/in/vrunda-parekh-a3b947256/",
   },
   {
     image: "/contro-2.png",
-    name: "contributor",
-    link: "https://riddhesh.vercel.app/",
+    name: "Titiksha Bhavsar",
+    link: "https://www.linkedin.com/in/titikshabhavsar/",
   },
   // Add more team members here...
 ]; 
