@@ -8,7 +8,7 @@ import compsData from './data/comps';
  import extcData from './data/extc';
  import fyData from './data/fy';
  import './/notes.css';
-
+import Buttons from './buttons';
  const notes = [...fyData, ...compsData, ...aiDsData, ...itData, ...extcData];
 // const notes = [...compsData];
 
@@ -84,6 +84,7 @@ filterSemester === "All" &&
 }}>
  <h1 className="middleTitle">Notes</h1>
 </div>
+< Buttons />
 <div className="filter-list-container">
   <h3 style={{ paddingTop: "10px" }}>Year</h3>
   <select className="filter-select" value={filterDepartment} onChange={handleFilterDepartmentChange} >
