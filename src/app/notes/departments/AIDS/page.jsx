@@ -67,11 +67,11 @@ const AI = () => {
           onChange={handleFilterSubjectChange}
         >
           <option value="All">All</option>
-          {/* <option value="BEE">BEE</option>
-          <option value="EC">Engineering Chemistry</option>
-          <option value="EM-1">Maths 1</option>
-          <option value="EM">Mechanics</option>
-          <option value="EP">Engineering Physics</option> */}
+          <option value="DAA">DAA</option>
+          <option value="DSA">DSA</option>
+          <option value="OOPM">OOPM</option>
+          <option value="Maths">Maths</option>
+          <option value="DSDS">DSDS</option>
         </select>
       </div>
       <ul>
