@@ -104,8 +104,8 @@ const Notes = () => {
         >
           <option value="All">All</option>
           <option value="FY">FY</option>
-          <option value="Comps">Comps</option>
-          <option value="AI-DS">AI-DS</option>
+          <option value="COMPS">Comps</option>
+          <option value="AIDS">AI-DS</option>
           {/* <option value="IT">IT</option>
     <option value="EXTC">EXTC</option> */}
         </select>
