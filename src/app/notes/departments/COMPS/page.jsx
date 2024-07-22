@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import fyData from "../../data/comps"; // Importing only fyData
 import "../../notes.css";
+import BackButton from '../backbutton';
 
 const COMPS = () => {
   const [filterSemester, setFilterSemester] = useState("All");
@@ -49,6 +50,7 @@ const COMPS = () => {
       >
         <h1 className="middleTitle">COMPS Notes</h1>
       </div>
+      <BackButton />
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Semester</h3>
         <select
@@ -67,11 +69,11 @@ const COMPS = () => {
           onChange={handleFilterSubjectChange}
         >
           <option value="All">All</option>
-          {/* <option value="BEE">BEE</option>
-          <option value="EC">Engineering Chemistry</option>
-          <option value="EM-1">Maths 1</option>
-          <option value="EM">Mechanics</option>
-          <option value="EP">Engineering Physics</option> */}
+          <option value="Maths">Maths III</option>
+          <option value="DS">DS</option>
+          <option value="DSGT">DSGT</option>
+          <option value="DLCA">DLCA</option>
+          <option value="DBMS">DBMS</option>
         </select>
       </div>
       <ul>

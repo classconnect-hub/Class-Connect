@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import fyData from "../../data/fy"; // Importing only fyData
 import "../../notes.css";
-
+import BackButton from '../backbutton';
 const FY = () => {
   const [filterSemester, setFilterSemester] = useState("All");
   const [filterSubject, setFilterSubject] = useState("All");
@@ -49,6 +49,7 @@ const FY = () => {
       >
         <h1 className="middleTitle">FY Notes</h1>
       </div>
+      <BackButton />
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Semester</h3>
         <select

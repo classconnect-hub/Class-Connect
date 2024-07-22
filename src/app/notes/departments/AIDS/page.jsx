@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import fyData from "../../data/aids"; // Importing only fyData
 import "../../notes.css";
+import BackButton from '../backbutton';
 
 const AI = () => {
   const [filterSemester, setFilterSemester] = useState("All");
@@ -48,7 +49,9 @@ const AI = () => {
         }}
       >
         <h1 className="middleTitle">AI-DS Notes</h1>
+        
       </div>
+      <BackButton />
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Semester</h3>
         <select
@@ -67,11 +70,11 @@ const AI = () => {
           onChange={handleFilterSubjectChange}
         >
           <option value="All">All</option>
-          {/* <option value="BEE">BEE</option>
-          <option value="EC">Engineering Chemistry</option>
-          <option value="EM-1">Maths 1</option>
-          <option value="EM">Mechanics</option>
-          <option value="EP">Engineering Physics</option> */}
+          <option value="DAA">DAA</option>
+          <option value="DSA">DSA</option>
+          <option value="OOPM">OOPM</option>
+          <option value="Maths">Maths III</option>
+          <option value="DSDS">DSDS</option>
         </select>
       </div>
       <ul>

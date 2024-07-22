@@ -5,7 +5,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "AC circuits",
-    name: "Shared By DinoCat99",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EcRm-4tjW15Ilq9HgcKiyHIBJBAZcq5FuM1XHnFAaYFmOQ?e=9h1CXT",
   },
   {
@@ -14,7 +14,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "DC circuits",
-    name: "Shared By DinoCat99",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EVnTeaNjQNJAgUUERUNCizIBgHt_2gBvDq0KQJjLsnJhnw?e=mOd4AC",
   },
   {
@@ -23,7 +23,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "Three phase AC",
-    name: "Shared By DinoCat99",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EUCvjHl86ctNkUdH24PjegQB63y58zy6H-M8Ap2dlKSOIw?e=1rVRThT",
   },
   {
@@ -32,7 +32,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "BEE M1",
-    name: "Shared By Prof. D Bathe",
+    name: "By Prof. D Bathe",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ERBDDVPlYG5Opb1SyqTcc7sBFsJf5qA3THvBEw6ICp6wyg?e=OScfuv",
   },
   {
@@ -41,7 +41,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "BEE M2-1",
-    name: "Shared By Prof. D Bathe",
+    name: "By Prof. D Bathe",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ecs91J8XmelMumGzSVJlh6EBPLsQ2Xi7zh_l9Qq_2pUSCw?e=42Rg3z",
   },
   {
@@ -50,7 +50,7 @@ const fyData = [
     semester: "Sem1",
     subject: "BEE",
     note: "BEE M2-2",
-    name: "Shared By Prof. D Bathe",
+    name: "By Prof. D Bathe",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ecs91J8XmelMumGzSVJlh6EBPLsQ2Xi7zh_l9Qq_2pUSCw?e=YFC3xQ",
   },
   {
@@ -59,7 +59,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EC",
     note: "Fuels & Combustion sums",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ecs91J8XmelMumGzSVJlh6EBPLsQ2Xi7zh_l9Qq_2pUSCw?e=42Rg3z",
   },
   {
@@ -68,7 +68,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EC",
     note: "Water Sums",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EbWxns_S0ZdFrLLF2Ftc6ngBNcEA42QDHwKYiwtYK9lxUg?e=bYignM",
   },
   {
@@ -77,7 +77,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM-1",
     note: "Module 1",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EerP-rNpFkdAvBFD4jgsXn4Bn6sDI8qFSzDd55NZr94K8Q?e=5k7xVx",
   },
   {
@@ -86,7 +86,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM-1",
     note: "Module 2",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EQgJ7uG5NMhClXZidnpXHtMBbdaTSq6zpKGINSJKJ-lshA?e=XPgNqc",
   },
   {
@@ -95,7 +95,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM-1",
     note: "Module 3",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ebi79OY048hApq6LoVqQx28BaCstn3yiC_3Sqo_3AzFt5A?e=WlaGLD",
   },
   {
@@ -104,7 +104,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM-1",
     note: "Module 4",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ETVFNi3YcbJCicOhEndizvQBjuw_XOVlMpfrFiTJpTYE_g?e=ZvuQ9j",
   },
   {
@@ -113,7 +113,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM-1",
     note: "Module 5",
-    name: "",
+    name: "By DinoCat99",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EVNe1c5LjW5JgRUC2puZ6LEBnpvhev7rxjypHbUcOndIoQ?e=tsV6QV",
   },
   {
@@ -122,7 +122,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM",
     note: "Complete notes",
-    name: "Prof JITENDRA  SHELAR",
+    name: "By Prof JITENDRA  SHELAR",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EVEHyBTkm_BOroYITzR_0CgBCuLmcFpUq8y7L9k0QLcD2A?e=K6OBQw",
   },
   {
@@ -131,7 +131,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM",
     note: "KP sir handbook",
-    name: "Prof. Kirtikumar Patel",
+    name: "By Prof. Kirtikumar Patel",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EXrioIQScY1KpeJNhMKFBusBZVwX2iXUqI_5tDYWvmDmvQ?e=TtqXq8",
   },
   {
@@ -140,7 +140,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM",
     note: "System of Coplanar Forces Type 1",
-    name: "Prof. Vivek Mane",
+    name: "By Prof. Vivek Mane",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ESN7QsBiY1lBo6EQbm5PiaEByVrJduKsvOX-JS3I8nC8SQ?e=ONnCQs",
   },
   {
@@ -149,7 +149,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EM",
     note: "System of Coplanar Forces Type 2",
-    name: "Prof. Vivek Mane",
+    name: "By Prof. Vivek Mane",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EUinkiM3CgxNoEg_xCZ3QM8B0Pmc5OvYpS2Z3kbaBo6rgg?e=YHLYOc",
   },
   {
@@ -167,7 +167,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EP",
     note: "Physics Handbook",
-    name: "Prof. Sanjiv Badhe",
+    name: "By Prof. Sanjiv Badhe",
     link: "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ecqo-ar1dXxGtbnHWNIxOhIBjy5GgeU4RXALxVdBgdxQaA?e=CAd63n",
   },
   {
@@ -176,7 +176,7 @@ const fyData = [
     semester: "Sem1",
     subject: "EP",
     note: "YouTube channel",
-    name: "Prof. Sanjiv Badhe",
+    name: "By Prof. Sanjiv Badhe",
     link: "https://www.youtube.com/@EngineeringPhysicsbySanjiv/playlists",
   }
 ];

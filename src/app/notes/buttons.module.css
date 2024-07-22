@@ -16,7 +16,7 @@
     background-color: #ddd6ce98; /* Semi-transparent white background */
     backdrop-filter: blur(10px); /* Apply the glass morphism effect */
     border: none;
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
