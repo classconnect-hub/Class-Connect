@@ -4,6 +4,8 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import { app } from "./config/firebaseConfig";
+import {getAuth, onAuthStateChanged} from "firebase/auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
