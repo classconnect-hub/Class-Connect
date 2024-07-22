@@ -106,8 +106,8 @@ const Notes = () => {
           <option value="FY">FY</option>
           <option value="COMPS">Comps</option>
           <option value="AIDS">AI-DS</option>
-          {/* <option value="IT">IT</option>
-    <option value="EXTC">EXTC</option> */}
+          <option value="IT">IT</option>
+          <option value="EXTC">EXTC</option>
         </select>
         <h3 style={{ paddingTop: "10px" }}>Semester</h3>
         <select
@@ -143,6 +143,11 @@ const Notes = () => {
           <option value="OOPM">OOPM</option>
           <option value="Maths">Maths III</option>
           <option value="DSDS">DSDS</option>
+          <option value="DLD">DLD</option>
+          <option value="EDC">EDC</option>
+          <option value="MC">MC</option>
+          <option value="COA">COA</option>
+          <option value="SE">Soft Engg.</option>
         </select>
       </div>
       <ul>

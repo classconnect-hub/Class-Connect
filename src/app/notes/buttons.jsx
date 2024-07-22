@@ -24,12 +24,18 @@ const Buttons = () => {
             <span>Department</span>
           </button>
         </a>
-        {/* <a href="/notes/departments/IT" target="_self">
+        <a href="/notes/departments/IT" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>IT</span>
             <span>Department</span>
           </button>
-        </a> */}
+        </a>
+        <a href="/notes/departments/EXTC" target="_self">
+          <button className={styles.button}>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>ExTC</span>
+            <span>Department</span>
+          </button>
+        </a>
       </div>
       {/* <div className={styles.buttonRow}>
         <a href="/groups" target="_self">
