@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import extcData from "../../data/extc"; // Importing only extcData
 import "../../notes.css";
 
-const extc = () => {
+const EXTC = () => {
   const [filterSemester, setFilterSemester] = useState("All");
   const [filterSubject, setFilterSubject] = useState("All");
 
@@ -91,4 +91,4 @@ const extc = () => {
   );
 };
 
-export default extc;
+export default EXTC;
