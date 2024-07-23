@@ -17,6 +17,7 @@
     "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
     "formidable": "^3.5.1",
+    "framer-motion": "^11.3.8",
     "fs": "^0.0.1-security",
     "googleapis": "^140.0.0",
     "install": "^0.13.0",

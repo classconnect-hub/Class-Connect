@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// Notes.js
+import { PageWrapper } from "../page-wrapper";
 import compsData from "./data/comps";
 import aiDsData from "./data/aids";
 import itData from "./data/it";
@@ -84,6 +84,10 @@ const Notes = () => {
   });
 
   return (
+    <>
+    <PageWrapper>
+
+    
     <div>
       <div
         style={{
@@ -161,6 +165,8 @@ const Notes = () => {
         ))}
       </ul>
     </div>
+    </PageWrapper>
+    </>
   );
 };
 

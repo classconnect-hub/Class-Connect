@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import notes from "./data/qbData"; // Adjust the path as per your project structure
 import "./qb.css";
+import { PageWrapper } from "../page-wrapper";
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All");
@@ -75,6 +76,8 @@ const Notes = () => {
   });
 
   return (
+    <>
+<PageWrapper>
     <div>
       <div
         style={{
@@ -134,6 +137,8 @@ const Notes = () => {
         ))}
       </ul>
     </div>
+    </PageWrapper>
+    </>
   );
 };
 
