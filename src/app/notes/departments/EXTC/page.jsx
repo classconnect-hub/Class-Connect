@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState } from "react";
-import itData from "../../data/it"; // Importing only itData
+import extcData from "../../data/extc"; // Importing only extcData
 import "../../notes.css";
 
-const IT = () => {
+const EXTC = () => {
   const [filterSemester, setFilterSemester] = useState("All");
   const [filterSubject, setFilterSubject] = useState("All");
 
@@ -16,7 +16,7 @@ const IT = () => {
     setFilterSubject(e.target.value);
   };
 
-  const filteredNotes = itData.filter((note) => {
+  const filteredNotes = extcData.filter((note) => {
     if (
       filterSemester === "All" &&
       filterSubject === "All"
@@ -47,7 +47,7 @@ const IT = () => {
           alignItems: "center",
         }}
       >
-        <h1 className="middleTitle">IT Department</h1>
+        <h1 className="middleTitle">ExTC Department</h1>
       </div>
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Semester</h3>
@@ -67,10 +67,10 @@ const IT = () => {
         >
           <option value="All">All</option>
           <option value="Maths">Maths III</option>
-          <option value="DS">DS</option>
-          <option value="DBMS">DBMS</option>
-          <option value="COA">COA</option>
-          <option value="SE">Soft Engg.</option>
+          <option value="DLD">DLD</option>
+          <option value="EDC">EDC</option>
+          <option value="MC">MC</option>
+          {/* <option value="SE">Soft Engg.</option> */}
         </select>
       </div>
       <ul>
@@ -91,4 +91,4 @@ const IT = () => {
   );
 };
 
-export default IT;
+export default EXTC;
