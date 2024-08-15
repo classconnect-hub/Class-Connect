@@ -5,7 +5,7 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
-      <a href="/qb/DSDS" target="_self">
+      <a href="https://internal-territory-dee.notion.site/DSDS-f6c1861b4c184b0fa59e849dc6854d47?pvs=4" target="_blank">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS</span>
             <span>AI-DS</span>
