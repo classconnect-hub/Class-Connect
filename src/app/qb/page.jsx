@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import notes from "./data/qbData"; // Adjust the path as per your project structure
 import "./qb.css";
 import { PageWrapper } from "../page-wrapper";
+import Buttons from "./buttons";
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All");
@@ -88,6 +89,7 @@ const Notes = () => {
       >
         <h1 className="middleTitle">Question Bank</h1>
       </div>
+      < Buttons/>
       <div className="filter-list-container">
         <h3 style={{ paddingTop: "10px" }}>Year</h3>
         <select
