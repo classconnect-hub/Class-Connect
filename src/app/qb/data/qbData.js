@@ -27,12 +27,20 @@ const qbData = [
         "id": 4,
         "department": "AI-DS",
         "semester": "Sem3",
+        "subject": "DSA",
+        "title": "DSA TT1 QB",
+        "link": "https://internal-territory-dee.notion.site/DSA-8e81c17453df4830a0bdabb28ac9e524?pvs=4"
+    },
+    {
+        "id": 5,
+        "department": "AI-DS",
+        "semester": "Sem3",
         "subject": "DAA",
         "title": "DAA QB - TT1",
         "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EaiMViYvv3FOnm13Cjjve-EBFBpnElLWmJ44EZvTiF7gtA?e=mPJX3n"
     },
     {
-        "id": 5,
+        "id": 6,
         "department": "AI-DS",
         "semester": "Sem3",
         "subject": "DAA",
@@ -40,21 +48,21 @@ const qbData = [
         "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ETwUU2RvlxNFmTIM1UGVANgB-U9Osh0SqxYb_udJYbHJiA?e=h5EZDH"
     },
     {
-        "id": 6,
+        "id": 7,
         "department": "AI-DS",
         "semester": "Sem3",
         "subject": "OOPM",
         "title": "OOPM imp",
         "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EQywYuMtceFOiYitn1tRRngB-bPQx_2_7wKcwVNN03iDeQ?e=XFaIse"
     },
-    {
-        "id": 7,
-        "department": "FY",
-        "semester": "Sem1",
-        "subject": "BEE",
-        "title": "BEE TT1 QB",
-        "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EVNoPsNTfIxAutx-7XwD_0MBGNY2Px5hWPX9_r-6Ls1hJw?e=gmkASR"
-    },
+    // {
+    //     "id": 7,
+    //     "department": "FY",
+    //     "semester": "Sem1",
+    //     "subject": "BEE",
+    //     "title": "BEE TT1 QB",
+    //     "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EVNoPsNTfIxAutx-7XwD_0MBGNY2Px5hWPX9_r-6Ls1hJw?e=gmkASR"
+    // },
     {
         "id": 8,
         "department": "FY",
