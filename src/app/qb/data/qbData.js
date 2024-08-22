@@ -11,10 +11,18 @@ const qbData = [
         "id": 2,
         "department": "AI-DS",
         "semester": "Sem3",
-        "subject": "OOPM",
-        "title": "OOPM TT1 QB",
-        "link": "https://internal-territory-dee.notion.site/OOPM-818588d0d2b4456bbae163237f0f52f0?pvs=4"
+        "subject": "DSDS",
+        "title": "DSDS Book",
+        "link": "/qb/DSDS"
     },
+    // {
+    //     "id": 2,
+    //     "department": "AI-DS",
+    //     "semester": "Sem3",
+    //     "subject": "OOPM",
+    //     "title": "OOPM TT1 QB",
+    //     "link": "/qb/DSDS"
+    // },
     {
         "id": 3,
         "department": "AI-DS",

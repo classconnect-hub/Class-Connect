@@ -1,20 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const DSDS = () => {
   return (
-    <div>
+    <div style={{ width: '100%', overflow: 'hidden' }}>
       <iframe
-        src="https://v2-embednotion.com/f6c1861b4c184b0fa59e849dc6854d47"
+        src="https://drive.google.com/file/d/1XkQhlM62zmbS456qtG0z58bUPAvUUd99/preview" // Embed URL
         style={{
           width: '100%',
-          height: '1500px',
-          border: '2px solid #ccc',
+          height: 'calc(100vh - 100px)', // Adjust height as needed
+          border: 'none', // No border for a cleaner look
           borderRadius: '10px',
-          padding: 'none'
+          boxSizing: 'border-box',
         }}
+        title="Embedded PDF"
       />
     </div>
-  )
-}
+  );
+};
 
-export default DSDS
+export default DSDS;
