@@ -3,7 +3,7 @@ import React from 'react';
 const DSDS = () => {
   return (
     <div style={{ width: '100%', overflow: 'hidden' }}>
-      <a href='https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EZfUQiSsZ8lLrI65pp4iSGgBDYsMolspoSbshpfySquv8w?e=PbcjtG'><h3>Maths 3 Kumbhojkar</h3></a>
+      <a style={{marginBottom: '30px'}} href='https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EZfUQiSsZ8lLrI65pp4iSGgBDYsMolspoSbshpfySquv8w?e=PbcjtG'><h3>Maths 3 Kumbhojkar(click here)</h3></a>
         <h1 style={{marginBottom: '20px'}}>Practice questions my Prajakta mam</h1>
         <iframe
       src="https://docs.google.com/document/d/1EY4skhHYHTAEOHnC1AD34MicelJ1CnL0NU2ZwHNSsBs/pub?embedded=true"
