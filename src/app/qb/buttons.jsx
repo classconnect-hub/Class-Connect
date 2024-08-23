@@ -5,6 +5,12 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
+      <a href="/qb/M3" target="_self">
+          <button className={styles.button}>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>Maths</span>
+            <span>All</span>
+          </button>
+        </a>
       <a href="https://internal-territory-dee.notion.site/DSDS-f6c1861b4c184b0fa59e849dc6854d47?pvs=4" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS</span>
