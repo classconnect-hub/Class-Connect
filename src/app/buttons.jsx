@@ -37,15 +37,15 @@ const Buttons = () => {
             <span>Groups</span>
           </button>
         </a>
-        <a href="/announcement" target="_self">
+        <a href="/experiments" target="_self">
           <button className={styles.button}>
             <Image
-              src="/announcement.png"
+              src="/code.png"
               alt="Events Icon"
               width={40}
               height={40}
             />
-            <span>Announcement</span>
+            <span>Lab Codes</span>
           </button>
         </a>
         <a

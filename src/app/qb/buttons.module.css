@@ -1,0 +1,59 @@
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #ddd6ce98; /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply the glass morphism effect */
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    color: #000;
+    font-family: 'Kaisei Tokumin', sans-serif;
+  }
+  
+  .button:hover {
+    background-color: #DDD6CE; /* grey color */
+    color: #000;
+  }
+  
+  .button img {
+    margin-bottom: 5px;
+  }
+  
+  .button span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Add this media query to your CSS */
+
+  @media only screen and (max-width: 768px) {
+    .button {
+       padding: 10px; /* Reduce padding inside buttons */
+     }
+    .buttonRow {
+       gap: 8px; /* Reduce gap between buttons */
+        flex-wrap: wrap;
+    
+      }
+     
+   }
