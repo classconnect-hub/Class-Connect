@@ -24,6 +24,10 @@ const links = [
     path: "/qb",
   },
   {
+    title: "Resources",
+    path: "/resources",
+  },
+  {
     title: "About Us",
     path: "/about",
   },

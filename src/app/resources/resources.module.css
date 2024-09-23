@@ -1,0 +1,29 @@
+.middleTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Kaisei Tokumin", sans-serif;
+    display: inline-block;
+    margin: 25px 0px 25px 25px; /* top right bottom left */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .link {
+    transition: color 0.2s ease;
+  }
+  
+  .link:hover {
+    color: #0099ff;
+    text-decoration: underline;
+  }
