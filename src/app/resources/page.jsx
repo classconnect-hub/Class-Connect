@@ -1,40 +1,82 @@
-import React from 'react'
+import React from 'react';
 import Buttons from './buttons';
 import styles from "./resources.module.css";
-import { color } from 'framer-motion';
 
-const resources = () => {
+const Resources = () => {
   return (
-    <div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+    <div className={styles.page}>
+      <div className={styles.titleContainer}>
         <h1 className={styles.middleTitle}>Resources</h1>
       </div>
       <Buttons />
-      <div style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "20px" ,
-          fontSize: "24px",
-        }}>
-      <h2>Day 1</h2>
-      
+      <div className={styles.dayTitle}>
+        <h2>-</h2>
       </div>
       <div className={styles.container}>
-      <h3>Day 1 Resources : </h3>
-        <a className={styles.link} target='_blank' href="https://docs.google.com/document/d/1QmchTDtbdFYwtY2aNDtc13LhsEiFXztpTA4pRnG9HZk/pub">
-          <p>  Click here</p>
-        </a>
+        <h2>Day 1 Resources:</h2>
+        </div>
+        <div className={styles.container}>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th>Resource Name</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VS Code Setup</td>
+                <td>Settings & Extentions for VSCode</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Edb46MQ7ffNMqzX8F110H9MBrcHi9sA2ZPKYis1x2t_Auw?e=LUQNBZ">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>HTML Tag Reference</td>
+                <td>All HTML tags references</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EUGSTOkz2ChJiUMu_K6tDygBmq3VgFKAtqGR09hM3M8aRA?e=Fflg56">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>HTML Further Reading</td>
+                <td>Links of tutorials, as well as a few others. Use them to learn more about the topics we have covered</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ee5JHrXBdg1AjrRAWAtzQzABSCFHSTpaimWiaf_3b92adw?e=Qtpcpt">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>CSS Property Reference</td>
+                <td>All CSS Property references</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ETclfbrPKOVJn2i8LA9Njr0Bwpauf9G35bcgHuWzq9nW_Q?e=o0ItYd">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>CSS Further Reading</td>
+                <td>Links of tutorials, as well as a few others. Use them to learn more about the topics we have covered</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ea097s9IeX1FqmBSFdGPMXABt5A9L8qIZvVWHjS-LrYg9w?e=y3ge06">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      
     </div>
-  )
+  );
 }
 
-export default resources
+export default Resources;
