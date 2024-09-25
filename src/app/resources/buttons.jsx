@@ -5,7 +5,7 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
-      <a href="https://github.com/404reese" target="_self">
+      <a href="https://github.com/404reese/ReactBootCamp" target="_blank">
   <button className={styles.button}>
     <span style={{ fontSize: 24, fontWeight: "bold" }}>
       <img className={styles.img} src="/github.png" alt="Github" />
