@@ -20,10 +20,50 @@
   }
 
   .link {
-    transition: color 0.2s ease;
+    color: #1e90ff; /* Link color */
+    text-decoration: none; /* Remove underline */
   }
   
   .link:hover {
-    color: #0099ff;
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover */
   }
+  
+  .titleContainer, .dayTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .middleTitle {
+    font-size: 2em;
+  }
+  
+  .dayTitle h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .tableWrapper {
+    overflow-x: auto; /* Makes the table responsive */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #444; /* Slightly lighter shade for headers */
+  }
+  
