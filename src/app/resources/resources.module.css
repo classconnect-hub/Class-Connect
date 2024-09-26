@@ -49,6 +49,8 @@
   
   .tableWrapper {
     overflow-x: auto; /* Makes the table responsive */
+    flex-grow: 1;
+    max-width: 1200px;
   }
   
   .table {
