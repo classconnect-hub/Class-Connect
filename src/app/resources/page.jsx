@@ -26,6 +26,15 @@ const Resources = () => {
               </tr>
             </thead>
             <tbody>
+            <tr>
+                <td>Recording Link</td>
+                <td>YouTube Livestream</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://www.youtube.com/live/SipMNRxDLAs?feature=shared">
+                    Click here
+                  </a>
+                </td>
+              </tr>
               <tr>
                 <td>VS Code Setup</td>
                 <td>Settings & Extentions for VSCode</td>
@@ -67,6 +76,60 @@ const Resources = () => {
                 <td>Links of tutorials, as well as a few others. Use them to learn more about the topics we have covered</td>
                 <td>
                   <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ea097s9IeX1FqmBSFdGPMXABt5A9L8qIZvVWHjS-LrYg9w?e=y3ge06">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className={styles.container}>
+        <h2>Day 2 Resources:</h2>
+        </div>
+        <div className={styles.container}>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th>Resource Name</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* <tr>
+                <td>Recording Link</td>
+                <td>YouTube Video</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="">
+                    Click here
+                  </a>
+                </td>
+              </tr> */}
+              <tr>
+                <td>JS Syntax</td>
+                <td>JS Syntax Funtion</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/Ec-F_FZqJtFBvNeIVLsiN_UBfbvAy_P0l8wAgf602yK3Cg?e=WBpoOP">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>JS Further Reading</td>
+                <td>JS Function Reference</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ERVZc7Co4LlImzNvkZRr4_ABxKnJm-xOzcr9nxrtrchixQ?e=rU95h6">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>DOM Documentation</td>
+                <td>mozilla MDN documentation</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">
                     Click here
                   </a>
                 </td>
