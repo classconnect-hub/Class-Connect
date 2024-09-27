@@ -136,8 +136,64 @@ const Resources = () => {
               </tr>
             </tbody>
           </table>
+          
         </div>
-      </div>
+        </div>
+      <div className={styles.container}>
+        <h2>Day 3 Resources:</h2>
+        </div>
+        <div className={styles.container}>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th>Resource Name</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* <tr>
+                <td>Recording Link</td>
+                <td>YouTube Video</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="">
+                    Click here
+                  </a>
+                </td>
+              </tr> */}
+              <tr>
+                <td>Github Desktop</td>
+                <td>repo link to install github desktop file for ubantu</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://github.com/shiftkey/desktop/releases">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              {/* <tr>
+                <td>JS Further Reading</td>
+                <td>JS Function Reference</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ERVZc7Co4LlImzNvkZRr4_ABxKnJm-xOzcr9nxrtrchixQ?e=rU95h6">
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>DOM Documentation</td>
+                <td>mozilla MDN documentation</td>
+                <td>
+                  <a className={styles.link} target='_blank' rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">
+                    Click here
+                  </a>
+                </td>
+              </tr> */}
+            </tbody>
+          </table>
+          
+        </div>
+        </div>
     </div>
   );
 }
