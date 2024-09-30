@@ -16,20 +16,21 @@ const Buttons = () => {
 <a href="https://chat.whatsapp.com/IW9gIToyS9GFCFCNfnuFL7" target="_blank">
   <button className={styles.button}>
     <span style={{ fontSize: 24, fontWeight: "bold" }}>
-      <img className={styles.img} src="/whatsapp.png" alt="Github" />
+      <img className={styles.img} src="/3.png" alt="Github" />
     </span>
     <span>Whatsapp Group</span>
   </button>
 </a>
-{/*
-<a href="linkedin.com" target="_blank">
+
+<a href="https://www.youtube.com/playlist?list=PLB1QfsqDlAJ9ilfew0fTX26MgpPfW6StK" target="_blank">
   <button className={styles.button}>
     <span style={{ fontSize: 24, fontWeight: "bold" }}>
-      <img className={styles.img} src="/linkedin.png" alt="LinkedIn" />
+      <img className={styles.img} src="/2.png" alt="LinkedIn" />
     </span>
-    <span>LinkedIn Account</span>
+    <span>YouTube Playlist</span>
   </button>
 </a>
+{/*
          <a href="https://chat.whatsapp.com/JgpfP9IrrXHAvCd71DLseC" target="_blank">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>OOPM</span>
