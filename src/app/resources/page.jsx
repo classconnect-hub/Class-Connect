@@ -268,6 +268,66 @@ const Resources = () => {
                   </a>
                 </td>
               </tr>
+              <tr>
+                <td>Advance JS topics</td>
+                <td>Continue learning JS</td>
+                <td>
+                  <a
+                    className={styles.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37"
+                  >
+                    Click here
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className={styles.container}>
+        <h2>Day 5 Resources:</h2>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th>Resource Name</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Recording Link</td>
+                <td>We`ll be uploading.....</td>
+                <td>
+                  <a
+                    className={styles.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="#"
+                  >
+                    Click here
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Advance react topics</td>
+                <td>Continue learning react</td>
+                <td>
+                  <a
+                    className={styles.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige"
+                  >
+                    Click here
+                  </a>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
