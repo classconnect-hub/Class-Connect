@@ -1,5 +1,9 @@
 
-![Class Connect Logo](path/to/your/image.png) <!-- Replace with your image path -->
+<div align="center">
+    <img src="public/CC-rect.png" alt="Class Connect Logo" style="border-radius: 12px; width: 500px;"/>
+</div>
+
+# Class Connect
 
 Welcome to the Class Connect repository! This web application serves as a central hub for students at K. J. Somaiya Institute of Technology to access notes, resources, past-year questions (PYQ), advice from seniors, and important updates from the college.
 
