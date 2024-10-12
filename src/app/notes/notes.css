@@ -1,93 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
-  .filter-select {
-    font-family: monospace;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #f7f7f7;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .filter-select:hover {
-    background-color: #e7e7f7;
-  }
-  
-  .filter-select:focus {
-    outline: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .filter-label {
-    margin-right: 10px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .note {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
-  
-  li:hover {
-    background-color: #ffffff4d;
-  }
-  
-  .filter-group {
-    margin-bottom: 20px;
-  }
-  
-  .filter-group h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  
-  .filter-group .filter-select {
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .filter-group .filter-select:nth-child(3) {
-    margin-right: 0;
-  }
-  .middleTitle {
-    font-size: 36px;
-    font-weight: bold;
-    color: #fff; 
-    text-align: center;
-    background-color:  rgba(255, 255, 255, 0.3); 
-    padding: 10px; 
-    border-radius: 10px;
-    font-family: 'Kaisei Tokumin', sans-serif;
-    display: inline-block; 
-    margin: 25px 0px 25px 25px;     /* top right bottom left */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-  }
 
-  
+.middleTitle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; 
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3); 
+  padding: 10px; 
+  border-radius: 10px;
+  font-family: 'Kaisei Tokumin', sans-serif;
+  display: inline-block; 
+  margin: 25px 0px 25px 25px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.filter-list-container {
+  display: flex;
+  justify-content: center; /* Center filters horizontally */
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.filter-list-container > * {
+  margin: 10px; /* Margin between filters */
+}
+
+.filter-select {
+  font-family: monospace;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333; /* Dark background for select */
+  color: #fff; /* White text for contrast */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 180px; /* Consistent width for all selects */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.filter-select:hover {
+  background-color: #444; /* Slightly lighter on hover */
+}
+
+.filter-select:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light glow on focus */
+}
+
+.notes-table {
+  max-width: 1200px;
+  margin: 20px auto;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.notes-table th, .notes-table td {
+  padding: 12px;
+  border: 1px solid #ddd6ce98; /* Lighter border for better contrast */
+  text-align: left;
+}
+
+.notes-table th {
+  background-color: #444; /* Darker header background */
+  color: #fff; /* White text for headers */
+  font-weight: bold;
+}
+
+.notes-table tr:hover {
+  background-color: #555; /* Slightly lighter on row hover */
+}
+
+/* Add media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  .filter-list-container {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+  }
+}
+
+/* Button styles */
 .buttonsContainer {
   display: flex;
   flex-direction: column;
@@ -103,7 +96,7 @@
 
 .button {
   background-color: #ddd6ce98; /* Semi-transparent white background */
-  backdrop-filter: blur(10px); /* Apply the glass morphism effect */
+  backdrop-filter: blur(10px); /* Glass morphism effect */
   border: none;
   padding: 15px 30px;
   font-size: 18px;
@@ -119,53 +112,14 @@
 }
 
 .button:hover {
-  background-color: #DDD6CE; /* grey color */
+  background-color: #DDD6CE; /* Grey color */
   color: #000;
 }
 
-.button img {
-  margin-bottom: 5px;
-}
-
-.button span {
-  display: block;
-  font-size: 16px;
-  text-align: center;
-}
-
-/* Add this media query to your CSS */
-
+/* Responsive button styles */
 @media only screen and (max-width: 768px) {
   .button {
-     padding: 10px; /* Reduce padding inside buttons */
-   }
-  .buttonRow {
-     gap: 8px; /* Reduce gap between buttons */
-      flex-wrap: wrap;
-  
-    }
-   
- }
- 
-  @media screen and (max-width: 768px) {
-    .button {
-      width: 100%;
-    }
+    padding: 10px; 
+    width: 100%; 
   }
-  .filter-list-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .filter-list-container > * {
-    margin: 10px;
-  }
-
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 768px) {
-   .filter-list-container {
-      flex-direction: column;
-    }
-  }
-
+}
