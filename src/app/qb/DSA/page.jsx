@@ -27,7 +27,7 @@ const dsa = () => {
               textAlign: "center",
               fontSize: "16px",
               fontFamily: "monospace",
-            }}> <p>⚠️ I've solved these questions, but no guarantee of accuracy or marks. Review carefully and verify with other sources!</p> </div>
+            }}> <p>⚠️ I&apos;ve solved these questions, but no guarantee of accuracy or marks. Review carefully and verify with other sources!</p> </div>
             <div style={{
               display: "flex",
               justifyContent: "center",
