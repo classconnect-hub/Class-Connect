@@ -10,7 +10,7 @@ import fyData from "./data/fy";
 import ".//notes.css";
 import Buttons from "./buttons";
 
-const notes = [...fyData, ...compsData, ...aiDsData, ...itData, ...extcData];
+const notes = [...fyData, ...aiDsData, ...compsData, ...itData, ...extcData];
 
 const Notes = () => {
   const [filterDepartment, setFilterDepartment] = useState("All");
