@@ -11,16 +11,16 @@ const Buttons = () => {
             <span>All</span>
           </button>
         </a> */}
-      {/* <a href="https://internal-territory-dee.notion.site/DSDS-f6c1861b4c184b0fa59e849dc6854d47?pvs=4" target="_self">
+       <a href="./qb/DSDS" target="_self">
           <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS</span>
-            <span>AI-DS</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS/DSGT</span>
+            <span>AI/COMPS</span>
           </button>
-        </a> */}
+        </a> 
         <a href="./qb/DSA" target="_self">
           <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>DS/DSA</span>
-            <span style={{ fontSize: 14}}>AI/COMPS</span>
+            <span style={{ fontSize: 26, fontWeight: "bold" }}>DS/DSA</span>
+            <span>AI/COMPS</span>
           </button>
         </a>
         {/* <a href="https://internal-territory-dee.notion.site/OOPM-818588d0d2b4456bbae163237f0f52f0?pvs=4" target="_self">
@@ -31,7 +31,7 @@ const Buttons = () => {
         </a> */}
          <a href="./qb/DAA" target="_self">
           <button className={styles.button}>
-            <span style={{ fontSize: 21, fontWeight: "bold" }}>DAA/AOA</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>DAA/AOA</span>
             <span>AI/COMPS</span>
           </button>
         </a>
