@@ -23,7 +23,7 @@ const Dsa = () => {
       </div>
       <div style={containerStyle}>
       <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vT6dECLWqgiMNdyms2rsymV4ua5eNIhxQEtWSc7vt4vYLY5KrKR1UtnbOz6Xu1OLwRSkJZibB6DEKwM/pub?embedded=true"
+          src="https://docs.google.com/document/d/e/2PACX-1vQyKHaLM7xI8ue175_7LOns8xLtrCkV32f-nDyk1RM43qqNmpxluEhVETmtIV37R1cgaHr20isvsi5d/pub?embedded=true"
           frameBorder="0"
           style={{ maxWidth: '830px', height: '1200px', width: '100%', display: 'block' }} // Adjust height as needed
           title="DSA Document"
