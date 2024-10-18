@@ -23,7 +23,7 @@ const teamMembers = [
     link: "https://www.linkedin.com/in/vrunda-parekh-a3b947256/",
   },
   {
-    image: "/contro-2.png",
+    image: "/titiksha.png",
     name: "Titiksha Bhavsar",
     link: "https://www.linkedin.com/in/titikshabhavsar/",
   },

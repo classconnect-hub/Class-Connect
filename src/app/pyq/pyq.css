@@ -5,14 +5,14 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: #f7f7f7;
+    background-color: #ddd6ce98;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
   }
   
   .filter-select:hover {
-    background-color: #e7e7f7;
+    background-color: #ddd6ced0;
   }
   
   .filter-select:focus {
@@ -73,6 +73,41 @@
   .filter-group .filter-select:nth-child(3) {
     margin-right: 0;
   }
+
+  .notes-table {
+    width: 100%;
+    max-width: 800px; /* Limit the maximum width of the table */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  }
+  
+  .notes-table th, .notes-table td {
+    padding: 12px;
+    text-align: left; /* Align text to the left */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent borders */
+  }
+  
+  .notes-table th {
+    background-color: rgba(255, 255, 255, 0.3); /* Light background for header */
+    color: #000; /* Dark text for header */
+    font-weight: bold;
+  }
+  
+  .notes-table tr {
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .notes-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten row on hover */
+  }
+  
+  .notes-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05); /* Slightly darker for even rows */
+  }
+  
   @media screen and (max-width: 768px) {
     .button {
       width: 100%;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DSDS = () => {
+const Dsa = () => {
   const containerStyle = {
     display: 'flex',
     justifyContent: 'center',
@@ -11,7 +11,7 @@ const DSDS = () => {
   return (
     <div>
       <div style={{ ...containerStyle }}>
-        <h1 className="middleTitle">DSDS/DSGT QB</h1>
+        <h1 className="middleTitle">DS/DSA QB</h1>
       </div>
       <div style={containerStyle}>
         <h3>For AI-DS & Comps Department</h3>
@@ -23,7 +23,7 @@ const DSDS = () => {
       </div>
       <div style={containerStyle}>
       <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vQeuQLLS5WyU2vUnK8_xGiQM1PCIw1wmUOhb0nKJzfZiXtLurHSNzkeCANE8FawsA/pub?embedded=true"
+          src="https://docs.google.com/document/d/e/2PACX-1vT6dECLWqgiMNdyms2rsymV4ua5eNIhxQEtWSc7vt4vYLY5KrKR1UtnbOz6Xu1OLwRSkJZibB6DEKwM/pub?embedded=true"
           frameBorder="0"
           style={{ maxWidth: '830px', height: '1200px', width: '100%', display: 'block' }} // Adjust height as needed
           title="DSA Document"
@@ -33,4 +33,4 @@ const DSDS = () => {
   );
 };
 
-export default DSDS;
+export default Dsa;

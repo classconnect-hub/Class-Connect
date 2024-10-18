@@ -19,7 +19,7 @@ const Buttons = () => {
         </a>
         <a href="/qb" target="_self">
           <button className={styles.button}>
-            <Image src="/qb.png" alt="Resources Icon" width={40} height={40} />
+            <Image src="/qb.png" alt="qb Icon" width={40} height={40} />
             <span>QuestionBank</span>
           </button>
         </a>
@@ -37,15 +37,15 @@ const Buttons = () => {
             <span>Groups</span>
           </button>
         </a>
-        <a href="/experiments" target="_self">
+        <a href="/resources" target="_self">
           <button className={styles.button}>
             <Image
-              src="/code.png"
-              alt="Events Icon"
+              src="/resources-icon.png"
+              alt="resources Icon"
               width={40}
               height={40}
             />
-            <span>Lab Codes</span>
+            <span>Resources</span>
           </button>
         </a>
         <a

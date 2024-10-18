@@ -5,36 +5,44 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
-      {/* <a href="/qb/M3" target="_self">
-          <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>Maths</span>
-            <span>All</span>
-          </button>
-        </a> */}
-       <a href="./qb/DSDS" target="_self">
-          <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS/DSGT</span>
-            <span>AI/COMPS</span>
-          </button>
-        </a> 
-        <a href="./qb/DSA" target="_self">
-          <button className={styles.button}>
-            <span style={{ fontSize: 26, fontWeight: "bold" }}>DS/DSA</span>
-            <span>AI/COMPS</span>
-          </button>
-        </a>
-        {/* <a href="https://internal-territory-dee.notion.site/OOPM-818588d0d2b4456bbae163237f0f52f0?pvs=4" target="_self">
+      <a href="https://github.com/404reese/ReactBootCamp" target="_blank">
+  <button className={styles.button}>
+    <span style={{ fontSize: 24, fontWeight: "bold" }}>
+      <img className={styles.img} src="/github.png" alt="Github" />
+    </span>
+    <span>Github Repository</span>
+  </button>
+</a>
+<a href="https://chat.whatsapp.com/IW9gIToyS9GFCFCNfnuFL7" target="_blank">
+  <button className={styles.button}>
+    <span style={{ fontSize: 24, fontWeight: "bold" }}>
+      <img className={styles.img} src="/3.png" alt="Github" />
+    </span>
+    <span>Whatsapp Group</span>
+  </button>
+</a>
+
+<a href="https://www.youtube.com/playlist?list=PLB1QfsqDlAJ9ilfew0fTX26MgpPfW6StK" target="_blank">
+  <button className={styles.button}>
+    <span style={{ fontSize: 24, fontWeight: "bold" }}>
+      <img className={styles.img} src="/2.png" alt="LinkedIn" />
+    </span>
+    <span>YouTube Playlist</span>
+  </button>
+</a>
+{/*
+         <a href="https://chat.whatsapp.com/JgpfP9IrrXHAvCd71DLseC" target="_blank">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>OOPM</span>
+            <span>CodeAI Community</span>
+          </button>
+        </a>
+         <a href="https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EY8q0Iza5ydEjJR4AlW7HasBMn6CTbe9Hs4a9aTCcU10nA?e=G3hiKA" target="_self">
+          <button className={styles.button}>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>DAA</span>
             <span>AI-DS</span>
           </button>
         </a> */}
-         <a href="./qb/DAA" target="_self">
-          <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>DAA/AOA</span>
-            <span>AI/COMPS</span>
-          </button>
-        </a>
         {/* <a href="/notes/departments/EXTC" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>ExTC</span>

@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import React, { useState } from "react";
 import notes from "./data/qbData"; // Adjust the path as per your project structure
 import "./qb.css";
@@ -78,68 +79,71 @@ const Notes = () => {
 
   return (
     <>
-<PageWrapper>
-    <div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <h1 className="middleTitle">Question Bank</h1>
-      </div>
-      < Buttons/>
-      <div className="filter-list-container">
-        <h3 style={{ paddingTop: "10px" }}>Year</h3>
-        <select
-          className="filter-select"
-          value={filterDepartment}
-          onChange={handleFilterDepartmentChange}
-        >
-          <option value="All">All</option>
-          <option value="FY">FY</option>
-          <option value="Comps">Comps</option>
-          <option value="AI-DS">AI-DS</option>
-          {/* Add more options as needed */}
-        </select>
-        <h3 style={{ paddingTop: "10px" }}>Semester</h3>
-        <select
-          className="filter-select"
-          value={filterSemester}
-          onChange={handleFilterSemesterChange}
-        >
-          <option value="All">All</option>
-          <option value="Sem1">Sem1</option>
-          <option value="Sem2">Sem2</option>
-          <option value="Sem3">Sem3</option>
-          <option value="Sem4">Sem4</option>
-          {/* Add more options as needed */}
-        </select>
-        <h3 style={{ paddingTop: "10px" }}>Subject</h3>
-        <select
-          className="filter-select"
-          value={filterSubject}
-          onChange={handleFilterSubjectChange}
-        >
-          <option value="All">All</option>
-          <option value="DBMS">DBMS</option>
-          <option value="ML">ML</option>
-          <option value="OS">OS</option>
-          {/* Add more options as needed */}
-        </select>
-      </div>
-      <ul>
-        {filteredNotes.map((note) => (
-          <li key={note.id}>
-            <a href={note.link} target="_blank" rel="noopener noreferrer">
-              {note.title} ({note.department}, {note.semester}, {note.subject})
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-    </PageWrapper>
+      <PageWrapper>
+        <div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h1 className="middleTitle">Question Bank</h1>
+          </div>
+          <Buttons />
+          <div className="filter-list-container">
+            <h3 style={{ paddingTop: "10px", color: "white" }}>Year</h3>
+            <select
+              className="filter-select"
+              value={filterDepartment}
+              onChange={handleFilterDepartmentChange}
+              style={{ color: "grey" }}
+            >
+              <option value="All">All</option>
+              <option value="FY">FY</option>
+              <option value="Comps">Comps</option>
+              <option value="AI-DS">AI-DS</option>
+              {/* Add more options as needed */}
+            </select>
+            <h3 style={{ paddingTop: "10px", color: "white" }}>Semester</h3>
+            <select
+              className="filter-select"
+              value={filterSemester}
+              onChange={handleFilterSemesterChange}
+              style={{ color: "grey" }}
+            >
+              <option value="All">All</option>
+              <option value="Sem1">Sem1</option>
+              <option value="Sem2">Sem2</option>
+              <option value="Sem3">Sem3</option>
+              <option value="Sem4">Sem4</option>
+              {/* Add more options as needed */}
+            </select>
+            <h3 style={{ paddingTop: "10px", color: "white" }}>Subject</h3>
+            <select
+              className="filter-select"
+              value={filterSubject}
+              onChange={handleFilterSubjectChange}
+              style={{ color: "grey" }}
+            >
+              <option value="All">All</option>
+              <option value="DBMS">DBMS</option>
+              <option value="ML">ML</option>
+              <option value="OS">OS</option>
+              {/* Add more options as needed */}
+            </select>
+          </div>
+          <ul>
+            {filteredNotes.map((note) => (
+              <li key={note.id}>
+                <a href={note.link} target="_blank" rel="noopener noreferrer">
+                  {note.title} ({note.department}, {note.semester}, {note.subject})
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </PageWrapper>
     </>
   );
 };
