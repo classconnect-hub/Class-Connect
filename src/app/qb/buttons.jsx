@@ -5,12 +5,12 @@ const Buttons = () => {
   return (
     <div className={styles.buttonsContainer}>
       <div className={styles.buttonRow}>
-      {/* <a href="/qb/M3" target="_self">
+       <a href="/qb/M3" target="_self">
           <button className={styles.button}>
-            <span style={{ fontSize: 24, fontWeight: "bold" }}>Maths</span>
+            <span style={{ fontSize: 24, fontWeight: "bold" }}>Maths 3</span>
             <span>All</span>
           </button>
-        </a> */}
+        </a> 
        <a href="./qb/DSDS" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>DSDS/DSGT</span>

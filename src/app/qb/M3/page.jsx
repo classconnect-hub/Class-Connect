@@ -1,35 +1,42 @@
 import React from 'react';
 
-const DSDS = () => {
+const Dsa = () => {
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '20px',
+  };
+
   return (
-    <div style={{ width: '100%', overflow: 'hidden' }}>
-      <iframe
-      src="https://iframe.embednpages.com/ya1IJrRkxOxXpfy78NMA"
-      style={{
-        width: '100%',
-        height: '100%',
-        minHeight: '1500px',
-        padding: '0',
-        border: '2px solid #ccc',
-        borderRadius: '10px',
-      }}
-      title="M3"
-    />
-      {/* <a style={{marginBottom: '30px'}} href='https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/EZfUQiSsZ8lLrI65pp4iSGgBDYsMolspoSbshpfySquv8w?e=PbcjtG'><h3>Maths 3 Kumbhojkar(click here)</h3></a>
-        <h1 style={{marginBottom: '20px'}}>Practice questions by Prajakta mam</h1>
-        <iframe
-      src="https://docs.google.com/document/d/1EY4skhHYHTAEOHnC1AD34MicelJ1CnL0NU2ZwHNSsBs/pub?embedded=true"
-      style={{ width: '100%', border: 'none', height: '600px' }}
-      title="Embedded Document"
-    ></iframe>
-      <h1 style={{marginBottom: '20px', marginTop: '20px'}}>Module 1 - Laplace transform</h1>
-      <iframe src="https://somaiya0-my.sharepoint.com/personal/riddhesh_c_somaiya_edu/_layouts/15/embed.aspx?UniqueId=1ad27d48-13a4-4baa-b514-039f9fbd84f2" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen title="Laplace transform (Prajakta ma’am notes)"></iframe>
-      <h1 style={{marginBottom: '20px', marginTop: '20px'}}>Module 2 (few from M1)</h1>
-      <iframe src="https://somaiya0-my.sharepoint.com/personal/riddhesh_c_somaiya_edu/_layouts/15/embed.aspx?UniqueId=fa8ddd60-dae6-4e10-b7cf-16a8ad3d56e2" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen title="Laplace 1,2 "></iframe>
-       */}
-      
+    <div>
+      <div style={{ ...containerStyle }}>
+        <h1 className="middleTitle">DAA/AOA QB</h1>
       </div>
+      <div style={containerStyle}>
+        <h3>For AI-DS & Comps Department</h3>
+      </div>
+      <div style={{ ...containerStyle, textAlign: 'center', fontSize: '16px', fontFamily: 'monospace' }}>
+        <p>
+          ⚠️ I&apos;ve solved these questions, but no guarantee of accuracy or marks. Review carefully and verify with other sources!
+        </p> 
+        </div>
+        <div style={{ ...containerStyle, textAlign: 'center', fontSize: '16px', fontFamily: 'monospace' }}>
+        <img src="/rotate-phone.png" alt="p" style={{width: '30px'}}/>
+        <p>
+            Rotate phone for better experience
+        </p>
+      </div>
+      <div style={containerStyle}>
+      <iframe
+          src="https://docs.google.com/document/d/e/2PACX-1vTO2NbeqHB6G_AdKWHXFbEdBEYczfbse1_1bcgx5mCyk8Q4xGgLc6UB3VHi_kv8uakpJwwCAqn-kh2H/pub?embedded=true"
+          frameBorder="0"
+          style={{ maxWidth: '830px', height: '1200px', width: '100%', display: 'block' }} // Adjust height as needed
+          title="maths Document"
+        />
+      </div>
+    </div>
   );
 };
 
-export default DSDS;
+export default Dsa;
