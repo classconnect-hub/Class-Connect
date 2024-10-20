@@ -19,6 +19,12 @@ const Dsa = () => {
       <div style={{ ...containerStyle, textAlign: 'center', fontSize: '16px', fontFamily: 'monospace' }}>
         <p>
           ⚠️ I&apos;ve solved these questions, but no guarantee of accuracy or marks. Review carefully and verify with other sources!
+        </p> 
+        </div>
+        <div style={{ ...containerStyle, textAlign: 'center', fontSize: '16px', fontFamily: 'monospace' }}>
+        <img src="/rotate-phone.png" alt="p" style={{width: '30px'}}/>
+        <p>
+            Rotate phone for better experience
         </p>
       </div>
       <div style={containerStyle}>
