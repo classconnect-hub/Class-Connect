@@ -23,12 +23,12 @@ const Buttons = () => {
             <span>AI/COMPS</span>
           </button>
         </a>
-        {/* <a href="https://internal-territory-dee.notion.site/OOPM-818588d0d2b4456bbae163237f0f52f0?pvs=4" target="_self">
+         <a href="./qb/OOPM" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>OOPM</span>
             <span>AI-DS</span>
           </button>
-        </a> */}
+        </a> 
          <a href="./qb/DAA" target="_self">
           <button className={styles.button}>
             <span style={{ fontSize: 24, fontWeight: "bold" }}>DAA/AOA</span>
