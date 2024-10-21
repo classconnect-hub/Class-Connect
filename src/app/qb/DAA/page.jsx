@@ -29,7 +29,7 @@ const Dsa = () => {
       </div>
       <div style={containerStyle}>
       <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vQyKHaLM7xI8ue175_7LOns8xLtrCkV32f-nDyk1RM43qqNmpxluEhVETmtIV37R1cgaHr20isvsi5d/pub?embedded=true"
+          src="https://appflowy.com/06d5df1f-1c4d-4d92-8138-2d09beb3d7ae/DAA-TT2-26f39e3a-1f76-4976-a679-b83b0a2d6c46"
           frameBorder="0"
           style={{ maxWidth: '830px', height: '1200px', width: '100%', display: 'block' }} // Adjust height as needed
           title="DSA Document"
