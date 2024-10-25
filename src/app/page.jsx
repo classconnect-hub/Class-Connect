@@ -15,7 +15,7 @@ const Home = () => {
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Class Connect</h1>
           <p className={styles.desc}>
-            Think notes, advice, and connections <br></br> Think Class Connect!
+          Exams Coming? Cooked and Confused? <br></br> Don’t Stress—Use ClassConnect!
           </p>
           <div className={styles.buttons}>
               <Buttons />
