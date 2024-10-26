@@ -89,7 +89,7 @@ const Notes = () => {
               <th>Department</th>
               <th>Semester</th>
               <th>Subject</th>
-              <th>Uploaded By</th>
+              <th>Shared By</th>
             </tr>
           </thead>
           <tbody>
