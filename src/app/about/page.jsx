@@ -22,11 +22,6 @@ const teamMembers = [
     name: "Vrunda Parekh",
     link: "https://www.linkedin.com/in/vrunda-parekh-a3b947256/",
   },
-  {
-    image: "/titiksha.png",
-    name: "Titiksha Bhavsar",
-    link: "https://www.linkedin.com/in/titikshabhavsar/",
-  },
   // Add more team members here...
 ]; 
 
@@ -138,7 +133,7 @@ const AboutPage = () => {
 
 
 
-    <h1 className={styles.middleTitle}>Our Contributors</h1>
+    <h1 className={styles.middleTitle}>Notes Contributors</h1>
     <div className={styles.teamContainer}>
   <div style={{
     display: 'flex',
