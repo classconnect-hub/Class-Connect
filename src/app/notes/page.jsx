@@ -7,7 +7,7 @@ import aiDsData from "./data/aids";
 import itData from "./data/it";
 import extcData from "./data/extc";
 import fyData from "./data/fy";
-import ".//notes.css";
+import "../notes/notes.css";
 import Buttons from "./buttons";
 
 const notes = [...fyData, ...aiDsData, ...compsData, ...itData, ...extcData];
@@ -46,7 +46,7 @@ const Notes = () => {
         <Buttons />
         <div className="filter-list-container">
           <h3 style={{ paddingTop: "10px" }}>Filters</h3>
-          <select value={filterDepartment} onChange={handleFilterDepartmentChange}>
+          <select value={filterDepartment} onChange={handleFilterDepartmentChange} className="filter-select">
             <option value="All">All Departments</option>
             <option value="FY">FY</option>
             <option value="COMPS">Comps</option>
@@ -54,12 +54,12 @@ const Notes = () => {
             <option value="IT">IT</option>
             <option value="EXTC">EXTC</option>
           </select>
-          <select value={filterSemester} onChange={handleFilterSemesterChange}>
+          <select value={filterSemester} onChange={handleFilterSemesterChange} className="filter-select" >
             <option value="All">All Semesters</option>
             <option value="Sem1">Sem1</option>
             <option value="Sem3">Sem3</option>
           </select>
-          <select value={filterSubject} onChange={handleFilterSubjectChange}>
+          <select value={filterSubject} onChange={handleFilterSubjectChange}className="filter-select">
             <option value="All">All Subjects</option>
             <option value="BEE">BEE</option>
             <option value="EC">Engineering Chemistry</option>

@@ -69,3 +69,29 @@
     background-color: #444; /* Slightly lighter shade for headers */
   }
   
+  .rectangle {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the background color as needed */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; /* Space around the rectangle */
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  
+  .rectangleheader {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    color: white; /* Header text color */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .rectangledescription {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255); /* Description text color */
+  }
+  
