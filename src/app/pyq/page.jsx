@@ -4,60 +4,53 @@ import notes from "./data/pData"; // Adjust the path as per your project structu
 import "./pyq.css";
 import { PageWrapper } from "../page-wrapper";
 
-const Notes = () => {
-  const [filterDepartment, setFilterDepartment] = useState("All");
-  const [filterSemester, setFilterSemester] = useState("All");
-  const [filterSubject, setFilterSubject] = useState("All");
+const PYQ = () => {
+  const [filters, setFilters] = useState({
+    department: "All",
+    semester: "All",
+    subject: "All",
+  });
 
-  const handleFilterDepartmentChange = (e) => {
-    setFilterDepartment(e.target.value);
-  };
-
-  const handleFilterSemesterChange = (e) => {
-    setFilterSemester(e.target.value);
-  };
-
-  const handleFilterSubjectChange = (e) => {
-    setFilterSubject(e.target.value);
+  const handleFilterChange = (e) => {
+    const { name, value } = e.target;
+    setFilters((prevFilters) => ({ ...prevFilters, [name]: value }));
   };
 
   const filteredNotes = notes.filter((note) => {
     return (
-      (filterDepartment === "All" || note.department === filterDepartment) &&
-      (filterSemester === "All" || note.semester === filterSemester) &&
-      (filterSubject === "All" || note.subject === filterSubject)
+      (filters.department === "All" || note.department === filters.department) &&
+      (filters.semester === "All" || note.semester === filters.semester) &&
+      (filters.subject === "All" || note.subject === filters.subject)
     );
   });
+
+  const renderFilterOptions = (name, options) => (
+    <select className="filter-select" name={name} value={filters[name]} onChange={handleFilterChange}>
+      {options.map((option) => (
+        <option key={option} value={option}>{option}</option>
+      ))}
+    </select>
+  );
 
   return (
     <PageWrapper>
       <div>
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <h1 className="middleTitle">PYQ</h1>
-        </div>
+      <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h1 className="middleTitle">PYQ</h1>
+          </div>
         <div className="filter-list-container">
-          <h3 style={{ paddingTop: "10px" }}>Year</h3>
-          <select className="filter-select" value={filterDepartment} onChange={handleFilterDepartmentChange}>
-            <option value="All">All</option>
-            <option value="FY">FY</option>
-            <option value="Comps">Comps</option>
-            <option value="AI-DS">AI-DS</option>
-          </select>
-          <h3 style={{ paddingTop: "10px" }}>Semester</h3>
-          <select className="filter-select" value={filterSemester} onChange={handleFilterSemesterChange}>
-            <option value="All">All</option>
-            <option value="Sem1">Sem1</option>
-            <option value="Sem2">Sem2</option>
-            <option value="Sem3">Sem3</option>
-            <option value="Sem4">Sem4</option>
-          </select>
-          <h3 style={{ paddingTop: "10px" }}>Subject</h3>
-          <select className="filter-select" value={filterSubject} onChange={handleFilterSubjectChange}>
-            <option value="All">All</option>
-            <option value="DBMS">DBMS</option>
-            <option value="ML">ML</option>
-            <option value="OS">OS</option>
-          </select>
+          <h3>Year</h3>
+          {renderFilterOptions("department", ["All", "FY", "Comps", "AI-DS"])}
+          <h3>Semester</h3>
+          {renderFilterOptions("semester", ["All", "Sem1", "Sem2", "Sem3", "Sem4"])}
+          <h3>Subject</h3>
+          {renderFilterOptions("subject", ["All", "DBMS", "ML", "OS"])}
         </div>
         <table className="notes-table">
           <thead>
@@ -71,14 +64,18 @@ const Notes = () => {
           <tbody>
             {filteredNotes.map((note) => (
               <tr key={note.id}>
-                <td>
-                  <a href={note.link} target="_blank" rel="noopener noreferrer">
-                    {note.note}
-                  </a>
-                </td>
-                <td>{note.department}</td>
-                <td>{note.semester}</td>
-                <td>{note.subject}</td>
+                {["note", "department", "semester", "subject"].map((field) => (
+                  <td key={field}>
+                    <a
+                      href={note.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      {note[field]}
+                    </a>
+                  </td>
+                ))}
               </tr>
             ))}
           </tbody>
@@ -88,4 +85,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default PYQ;

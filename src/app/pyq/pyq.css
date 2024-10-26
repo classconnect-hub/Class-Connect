@@ -54,25 +54,40 @@
     background-color: #ffffff4d;
   }
   
-  .filter-group {
-    margin-bottom: 20px;
+  .filter-list-container {
+    display: flex;
+    justify-content: center; /* Center filters horizontally */
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Added margin for spacing */
   }
   
-  .filter-group h3 {
-    font-size: 18px;
+  .filter-list-container > * {
+    margin: 10px; /* Margin between filters */
+  }
+  
+  .filter-select {
+    font-family: monospace;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333; /* Dark background for select */
+    color: #fff; /* White text for contrast */
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 10px;
+    cursor: pointer;
+    width: 180px; /* Consistent width for all selects */
+    transition: background-color 0.3s; /* Smooth transition */
   }
   
-  .filter-group .filter-select {
-    margin-right: 10px;
-    margin-bottom: 10px;
+  .filter-select:hover {
+    background-color: #444; /* Slightly lighter on hover */
   }
   
-  .filter-group .filter-select:nth-child(3) {
-    margin-right: 0;
+  .filter-select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light glow on focus */
   }
+  
 
   .notes-table {
     width: 100%;

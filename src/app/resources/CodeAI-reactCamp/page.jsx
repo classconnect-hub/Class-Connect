@@ -8,9 +8,6 @@ const Resources = () => {
       <div className={styles.titleContainer}>
         <h1 className={styles.middleTitle}>Resources</h1>
       </div>
-      <div className={styles.titleContainer}>
-        <h1 className={styles.middleTitle}>CodeAI React Bootcamp</h1>
-      </div>
       <Buttons />
       <div className={styles.dayTitle}>
         <h2>-</h2>
