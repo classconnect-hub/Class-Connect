@@ -60,7 +60,7 @@ const aidsData = [
         "subject": "Maths",
         "note": "Maths 3 GV Kumbhojkar",
         "name": "from Telegram",
-        "link": "https://somaiya0-my.sharepoint.com/:b:/g/personal/riddhesh_c_somaiya_edu/ES-T4iXGjeBFrXtrLKmnJXQBlBRvht5DACIW8lfOxO7ZJw?e=fIizJn"
+        "link": "https://t.me/c/2373886673/2"
     },
     {
         "id": 8,
