@@ -27,6 +27,12 @@ export default function RootLayout({ children }) {
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=G-MPPFLH83KV`}
         />
+        <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2503132978445744"
+        strategy="afterInteractive"
+        crossorigin="anonymous"
+      />
 
         <Script id="ga-script" strategy="lazyOnload">
           {`
