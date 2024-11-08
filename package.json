@@ -20,7 +20,7 @@
     "formidable": "^3.5.1",
     "framer-motion": "^11.3.8",
     "fs": "^0.0.1-security",
-    "googleapis": "^140.0.0",
+    "googleapis": "^140.0.1",
     "install": "^0.13.0",
     "lucide-react": "^0.395.0",
     "mongoose": "^8.0.0",
