@@ -1,5 +1,6 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import notes from "./data/pData"; // Adjust the path as per your project structure
 import "./pyq.css";
 import { PageWrapper } from "../page-wrapper";
 
@@ -9,21 +10,6 @@ const PYQ = () => {
     semester: "All",
     subject: "All",
   });
-  const [notes, setNotes] = useState([]); // State to hold notes data
-
-  useEffect(() => {
-    const fetchNotes = async () => {
-      try {
-        const response = await fetch('/api/pyq'); // Fetch data from the pyq API route
-        const data = await response.json();
-        setNotes(data);
-      } catch (error) {
-        console.error('Error fetching notes:', error);
-      }
-    };
-
-    fetchNotes();
-  }, []); // Fetch notes on component mount
 
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
@@ -40,57 +26,60 @@ const PYQ = () => {
 
   const renderFilterOptions = (name, options) => (
     <select className="filter-select" name={name} value={filters[name]} onChange={handleFilterChange}>
-      <option value="All">All</option>
       {options.map((option) => (
-        <option key={option} value={option}>
-          {option}
-        </option>
+        <option key={option} value={option}>{option}</option>
       ))}
     </select>
   );
 
-  const departments = [...new Set(notes.map((note) => note.department))];
-  const semesters = [...new Set(notes.map((note) => note.semester))];
-  const subjects = [...new Set(notes.map((note) => note.subject))];
-
   return (
     <PageWrapper>
-      <div style={{ textAlign: "center" }}>
-        <h1 className="middleTitle">PYQ</h1>
-      </div>
-      <div className="filter-list-container">
-        <h3 className="filter-label">Department</h3>
-        {renderFilterOptions("department", departments)}
-        <h3 className="filter-label">Semester</h3>
-        {renderFilterOptions("semester", semesters)}
-        <h3 className="filter-label">Subject</h3>
-        {renderFilterOptions("subject", subjects)}
-      </div>
-      <div className="notes-list">
-        {filteredNotes.length > 0 ? (
-          <table className="notes-table">
-            <thead>
-              <tr>
-                <th>Department</th>
-                <th>Semester</th>
-                <th>Subject</th>
-                <th>Note</th>
+      <div>
+      <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h1 className="middleTitle">PYQ</h1>
+          </div>
+        <div className="filter-list-container">
+          <h3>Year</h3>
+          {renderFilterOptions("department", ["All", "FY", "Comps", "AI-DS"])}
+          <h3>Semester</h3>
+          {renderFilterOptions("semester", ["All", "Sem1", "Sem2", "Sem3", "Sem4"])}
+          <h3>Subject</h3>
+          {renderFilterOptions("subject", ["All", "DBMS", "ML", "OS"])}
+        </div>
+        <table className="notes-table">
+          <thead>
+            <tr>
+              <th>Note</th>
+              <th>Department</th>
+              <th>Semester</th>
+              <th>Subject</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredNotes.map((note) => (
+              <tr key={note.id}>
+                {["note", "department", "semester", "subject"].map((field) => (
+                  <td key={field}>
+                    <a
+                      href={note.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      {note[field]}
+                    </a>
+                  </td>
+                ))}
               </tr>
-            </thead>
-            <tbody>
-              {filteredNotes.map((note) => (
-                <tr key={note.id} onClick={() => window.open(note.link, "_blank")} style={{ cursor: 'pointer' }}>
-                  <td>{note.department}</td>
-                  <td>{note.semester}</td>
-                  <td>{note.subject}</td>
-                  <td>{note.note}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ) : (
-          <p>No notes available for the selected filters.</p>
-        )}
+            ))}
+          </tbody>
+        </table>
       </div>
     </PageWrapper>
   );
