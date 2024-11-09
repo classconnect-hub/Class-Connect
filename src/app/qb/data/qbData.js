@@ -53,7 +53,7 @@ const qbData = [
         "semester": "Sem3",
         "subject": "DSA",
         "title": "DSA QB - TT1",
-        "link": "qb/TT1/DSA"
+        "link": "https://internal-territory-dee.notion.site/DSA-8e81c17453df4830a0bdabb28ac9e524?pvs=74"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@ const qbData = [
         "semester": "Sem3",
         "subject": "DSDS",
         "title": "DSDS QB - TT1",
-        "link": "qb/TT1/DSDS"
+        "link": "https://internal-territory-dee.notion.site/DSDS-f6c1861b4c184b0fa59e849dc6854d47?pvs=4"
     },
     {
         "id": 9,

@@ -11,7 +11,7 @@ const teamMembers = [
   {
     image: "/react.png",
     name: "React Bootcamp",
-    link: "./resources/react",
+    link: "https://t.me/+d99cbZ41r7tmZDZl",
   },
   // Add more team members here...
 ];
@@ -20,7 +20,7 @@ const resources = () => {
   return (
     <div className={styles.page}>
       <div className={styles.titleContainer}>
-        <h1 className={styles.middleTitle}>Resources</h1>
+        <h1 className={styles.middleTitle}>feature TEST PAGE</h1>
       </div>
       <div className={styles.titleContainer}>
         <h2>Extra Curricular</h2>
@@ -31,6 +31,7 @@ const resources = () => {
             <a
               key={index}
               href={member.link}
+              target="_blank"
               rel="noopener noreferrer"
               className={styles.memberCard}
             >

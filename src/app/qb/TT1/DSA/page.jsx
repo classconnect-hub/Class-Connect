@@ -1,19 +1,36 @@
-import React from 'react'
+import React from 'react';
 
-const DSA = () => {
+const Dsa = () => {
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '20px',
+  };
+
   return (
     <div>
-      <h1>OOPM</h1>
-
-      ⚠️ Assuming “write algorithm” means steps in simple english; unlike DAA
-
-## YEH ANS LIKHKE TUMHARE MARKS NAHI AAYE TOH MUJHE NAHI PATA
-
-~Riddhesh
-
-QB
+      <div style={{ ...containerStyle }}>
+        <h1 className="middleTitle">DS/DSA QB TT1</h1>
+      </div>
+      <div style={containerStyle}>
+        <h3>For AI-DS & Comps Department</h3>
+      </div>
+      <div style={{ ...containerStyle, textAlign: 'center', fontSize: '16px', fontFamily: 'monospace' }}>
+        <p>
+          ⚠️ I&apos;ve solved these questions, but no guarantee of accuracy or marks. Review carefully and verify with other sources!
+        </p>
+      </div>
+      <div style={containerStyle}>
+      <iframe
+          src="https://appflowy.com/06d5df1f-1c4d-4d92-8138-2d09beb3d7ae/DAA-TT1-5849a32a-a302-47bf-ae74-74b8d6aacadc"
+          frameBorder="0"
+          style={{ maxWidth: '830px', height: '1200px', width: '100%', display: 'block' }} // Adjust height as needed
+          title="DSA Document"
+        />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default DSA
+export default Dsa;

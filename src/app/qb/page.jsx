@@ -32,7 +32,6 @@ const Notes = () => {
       name={name}
       value={filters[name]}
       onChange={handleFilterChange}
-      style={{ color: "grey" }}
     >
       {options.map((option) => (
         <option key={option} value={option}>{option}</option>
@@ -43,22 +42,22 @@ const Notes = () => {
   return (
     <PageWrapper>
       <div>
-      <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <h1 className="middleTitle">Question Bank</h1>
-          </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <h1 className="middleTitle">Question Bank</h1>
+        </div>
         <Buttons />
         <div className="filter-list-container">
-          <h3 style={{ paddingTop: "10px", color: "white" }}>Year</h3>
+          <h3>Year</h3>
           {renderFilterOptions("department", ["All", "FY", "Comps", "AI-DS"])}
-          <h3 style={{ paddingTop: "10px", color: "white" }}>Semester</h3>
+          <h3>Semester</h3>
           {renderFilterOptions("semester", ["All", "Sem1", "Sem2", "Sem3", "Sem4"])}
-          <h3 style={{ paddingTop: "10px", color: "white" }}>Subject</h3>
+          <h3>Subject</h3>
           {renderFilterOptions("subject", ["All", "DBMS", "ML", "OS"])}
         </div>
         <table className="notes-table">
