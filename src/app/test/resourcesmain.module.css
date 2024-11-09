@@ -1,0 +1,67 @@
+.page {
+    padding: 20px;
+  }
+  
+  .titleContainer {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced space between titles */
+  }
+  
+  .middleTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.3); 
+    padding: 10px; 
+    border-radius: 10px;
+    font-family: 'Kaisei Tokumin', sans-serif;
+    display: inline-block; 
+    margin: 25px 0px 25px 0px;     /* top right bottom left */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  
+  .teamContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px; /* Reduced space above the team containers */
+  }
+  
+  .memberGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the grid */
+    gap: 10px; /* Use gap for uniform spacing */
+  }
+  
+  .memberCard {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; /* Reduced padding */
+    background-color: rgba(255, 255, 255, 0.3); /* Glass morphism background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 150px; /* Adjusted width */
+    transition: transform 0.2s; /* Smooth transform on hover */
+  }
+  
+  .memberCard:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  
+  .memberImage {
+    margin-bottom: 5px; /* Reduced space below image */
+  }
+  
+  .memberName {
+    text-align: center;
+    font-size: 16px; /* Adjusted font size */
+    margin-top: 5px; /* Reduced space above name */
+    color: #333; /* Dark text color */
+  }

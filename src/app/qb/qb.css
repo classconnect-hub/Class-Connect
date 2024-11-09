@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
+
 .filter-list-container {
   display: flex;
   justify-content: center; /* Center filters horizontally */
@@ -32,67 +33,63 @@
   outline: none;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light glow on focus */
 }
-  
-  .note {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
-  
-  li:hover {
-    background-color: #ffffff4d;
-  }
-  
-  
-  .middleTitle {
-    font-size: 36px;
-    font-weight: bold;
-    color: #fff; 
-    text-align: center;
-    background-color:  rgba(255, 255, 255, 0.3); 
-    padding: 10px; 
-    border-radius: 10px;
-    font-family: 'Kaisei Tokumin', sans-serif;
-    display: inline-block; 
-    margin: 25px 0px 25px 25px;     /* top right bottom left */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-  }
-  @media screen and (max-width: 768px) {
-    .button {
-      width: 100%;
-    }
-  }
-  .filter-list-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .filter-list-container > * {
-    margin: 10px;
-  }
 
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 768px) {
-   .filter-list-container {
-      flex-direction: column;
-    }
+.notes-table {
+  width: 100%;
+  max-width: 800px; /* Limit the maximum width of the table */
+  margin: 20px auto; /* Center the table */
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.notes-table th,
+.notes-table td {
+  padding: 12px;
+  text-align: left; /* Align text to the left */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent borders */
+}
+
+.notes-table th {
+  background-color: rgba(255, 255, 255, 0.3); /* Light background for header */
+  color: #000; /* Dark text for header */
+  font-weight: bold;
+}
+
+.notes-table tr {
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.notes-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Lighten row on hover */
+}
+
+.notes-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05); /* Slightly darker for even rows */
+}
+
+.middleTitle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; 
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3); 
+  padding: 10px; 
+  border-radius: 10px;
+  font-family: 'Kaisei Tokumin', sans-serif;
+  display: inline-block; 
+  margin: 25px 0; /* top right bottom left */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 768px) {
+  .filter-list-container {
+    flex-direction: column; /* Stack filters vertically on small screens */
   }
+  
+  .notes-table {
+    width: 100%; /* Full width for small screens */
+  }
+}
